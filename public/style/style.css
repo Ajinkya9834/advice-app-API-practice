@@ -1,0 +1,30 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+}
+.advice{
+    position: relative;
+    text-align: center;
+color:white ;
+    width: 50%;
+    height: 30%;
+    background-color: hsl(219, 30%, 48%);
+    border-radius: 15px;
+}
+
+.advice > p{
+    color: hsl(218, 23%, 16%);
+}
+
+.btn > button{
+    margin-top: 100px;
+    border: 0px;
+    padding: 15px;
+    background-color:aqua;
+    box-shadow: 0 0 20px hsl(150, 100%, 66%);
+    text-align: center;
+}

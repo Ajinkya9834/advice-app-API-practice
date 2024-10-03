@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Advice generator app</title>
+  <link rel="stylesheet" type="text/css" href="/style/style.css">
+  
+ 
+</head>
+<body>
+
+
+  <div class="advice">
+    
+    <p>Advice #</p>
+    <% if(locals.advice){ %>
+    <h1><%= advice%></h1>
+<% } %>
+      <form id="form" method="GET">
+        <div class="btn">
+          <button formaction="/advice-me">click me for advice</button>
+        </div>
+      </form>
+      
+  </div>
+  
+  
+  
+  
+</body>
+</html>
